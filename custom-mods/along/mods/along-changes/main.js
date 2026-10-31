@@ -151,7 +151,7 @@ export default class Changes extends View {
     if (!this.root) return;
     const { sep, base } = joiner(this.root);
     const relative = file.path.replaceAll("/", sep);
-    openOverlay({ mod: "copy-menu", kind: "popup", width: 210, props: { tab: "file", target: { path: base + relative, relative, name: file.path.split("/").pop() } } });
+    openOverlay({ mod: "along-menu", kind: "popup", width: 210, props: { tab: "file", target: { path: base + relative, relative, name: file.path.split("/").pop() } } });
   }
 
   pick(path, cx) {

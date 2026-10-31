@@ -29,7 +29,7 @@ export default class CopyMenu extends View {
   render(cx) {
     const t = theme(), list = items();
     return v_flex()
-      .id("copy-menu")
+      .id("along-menu")
       .track_focus(this.handle)
       .w_full()
       .min_h(0)
@@ -47,7 +47,7 @@ export default class CopyMenu extends View {
       })
       .children(list.map((item, i) =>
         h_flex()
-          .id(`copy-menu-${i}`)
+          .id(`along-menu-${i}`)
           .h(31)
           .px(8)
           .gap(9)
@@ -57,7 +57,7 @@ export default class CopyMenu extends View {
           .when(i === this.at, (el) => el.bg(t.selected))
           .hover((s) => s.bg(t.hover))
           .on_click((_e, cx) => this.choose(i, cx))
-          .child(svg("mods/copy-menu/copy.svg").size(14).flex_none().text_color(t.muted))
+          .child(svg("mods/along-menu/copy.svg").size(14).flex_none().text_color(t.muted))
           .child(div().flex_1().child(item[0]))
       ));
   }

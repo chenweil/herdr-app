@@ -1,6 +1,6 @@
-# Files Copy Path
+# Along
 
-![Files Copy Path](preview.png)
+![Along](preview.png)
 
 Right-clicking a file row in the Files or Changes panel opens a small menu
 with copy actions for the absolute path, relative path, and name.
@@ -8,14 +8,14 @@ with copy actions for the absolute path, relative path, and name.
 ## Built from
 
 This package clones the shipped `files` and `changes` panels into
-`copy-files` and `copy-changes`, adds the `copy-menu` overlay, and uses a
-personal `files-copy-path` layout cloned from `main`. The layout points its
+`along-files` and `along-changes`, adds the `along-menu` overlay, and uses a
+personal `along` layout cloned from `main`. The layout points its
 Files and Changes stack at the personal panel copies.
 
 ## Done when
 
 - The three mods pass `herdr-app check`.
-- The `files-copy-path` layout opens and shows Files and Changes.
+- The `along` layout opens and shows Files and Changes.
 - Right-clicking a row opens the copy menu and each item writes to the
   clipboard.
 
