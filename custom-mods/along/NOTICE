@@ -1,11 +1,9 @@
 Along
 Copyright (c) 2026 chenweilong
 
-along-files and along-changes contain code derived in part from herdr-app:
+along-files and along-changes are modified copies of the Files and Changes
+mods from herdr-app:
 https://github.com/herdrdev/herdr-app
 
-Those portions are licensed under the Apache License, Version 2.0:
-https://www.apache.org/licenses/LICENSE-2.0
-
-along-machines, along-menu, and layouts/along.json are original work by
-chenweilong and are licensed under the MIT License. See LICENSE.
+The original and modified files are licensed under the Apache License, Version
+2.0. See LICENSE.

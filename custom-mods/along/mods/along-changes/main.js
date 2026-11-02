@@ -1,3 +1,4 @@
+// Modified from herdr-app's defaults/mods/changes/main.js. See ../../NOTICE.
 import { View, div } from "gpui-kit";
 import { v_flex, h_flex, InputState, Input, Scrollbar, v_virtual_list } from "gpui-base";
 import { spaces, panes, focused, exec, readTextFile, watchFolder, theme, settings, openOverlay } from "herdr";

@@ -1,0 +1,4 @@
+# Written by `herdr-app check` and the app on every start.
+jsconfig.json
+gpui-kit.d.ts
+herdr.d.ts
