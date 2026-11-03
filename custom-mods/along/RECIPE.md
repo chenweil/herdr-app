@@ -2,6 +2,8 @@
 
 ![Along](preview.png)
 
+Version 0.3.0. See [CHANGELOG.md](CHANGELOG.md) for what changed.
+
 Right-clicking a file row in the Files or Changes panel opens a small menu
 with copy actions for the absolute path, relative path, and name.
 
@@ -9,14 +11,16 @@ with copy actions for the absolute path, relative path, and name.
 
 This package clones the shipped `files` and `changes` panels into
 `along-files` and `along-changes`, adds the `along-menu` and `along-machines`
-overlays, and uses a
-personal `along` layout cloned from `main`. The layout points its
-Files and Changes stack at the personal panel copies.
+overlays, and clones the shipped `tabs` bar into `along-tabs` with a Machines
+button next to Files and Changes. The personal `along` layout points its tab
+bar at `along-tabs` and its Files and Changes stack at the personal panel
+copies.
 
 ## Done when
 
-- The four mods pass `herdr-app check`.
+- The five mods pass `herdr-app check`.
 - The `along` layout opens and shows Files and Changes.
+- The tab bar shows Machines next to Files and Changes.
 - Right-clicking a row opens the copy menu and each item writes to the
   clipboard.
 - The Machines button keeps disabled machine profiles and can enable them

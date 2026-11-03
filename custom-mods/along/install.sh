@@ -21,8 +21,9 @@ for source in "$package_dir"/mods/*; do
   printf '✅ 已安装 mod：%s\n' "$app_home/mods/$name"
 done
 
-cp "$package_dir/README.md" "$package_dir/RECIPE.md" \
-  "$package_dir/LICENSE" "$package_dir/NOTICE" "$app_home/"
+cp "$package_dir/README.md" "$package_dir/RECIPE.md" "$package_dir/VERSION" \
+  "$package_dir/CHANGELOG.md" "$package_dir/LICENSE" "$package_dir/NOTICE" \
+  "$app_home/"
 printf '✅ 已安装说明文档与许可证：%s\n' "$app_home"
 
 failed=0

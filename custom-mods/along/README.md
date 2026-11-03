@@ -4,6 +4,8 @@ This personal layout adds a right-click menu to the Files and Changes panels.
 It copies the absolute path, the path relative to the panel folder or
 repository root, and the file name.
 
+Version 0.3.0. See `CHANGELOG.md` for what changed.
+
 ## Install
 
 From this directory, run:
@@ -20,8 +22,8 @@ and `NOTICE` into `${HERDR_APP_HOME:-$HOME/.config/herdr-app}`, then runs
 The mods use `exec` and `readTextFile` because they are copies of Herdr's
 Files and Changes panels. They read the focused folder and repository, and do
 not use the network. The Machines dialog runs local `hc` commands. Disable
-forgets the machine from herdr-core after saving its profile in Along's local
-storage; Enable adds it back with the saved target and session. Remote
+forgets the machine from herdr-core after saving its profile in Along's
+shared state; Enable adds it back with the saved target and session. Remote
 terminals keep running while a machine is disabled.
 
 ## License
