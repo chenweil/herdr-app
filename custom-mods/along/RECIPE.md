@@ -15,7 +15,7 @@ Files and Changes stack at the personal panel copies.
 
 ## Done when
 
-- The three mods pass `herdr-app check`.
+- The four mods pass `herdr-app check`.
 - The `along` layout opens and shows Files and Changes.
 - Right-clicking a row opens the copy menu and each item writes to the
   clipboard.
@@ -30,4 +30,4 @@ copies when Herdr updates; shipped mods can change independently.
 
 Disabling a machine removes it from the local herdr-core registry, so its
 spaces disappear from the current Herdr window until it is enabled again.
-The remote terminals and the saved Along profile remain available.
+The remote terminals and the saved Along profile in shared state remain available.
